@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> RELOG DIGITAL </title>
+
+    <!-- __________________________________________________________
+            |____________ARGEGAR BIBLIOTECAS Y LIBRERIAS______________|
+       -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divece-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="css/StyleClock.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!-- ______________________________________________________________________
+           |____________CREACIÓN DE RELOJ CON CSS Y JAVASCRIPT____________________|
+       -->
+    <div class="wrap">
+        <!--CENTRAR EL RELOJ-->
+        <div class="widget">
+            <!--DISEÑO-->
+
+            <!--DIV PARA FECHA-->
+            <div class="fecha">
+                <p id="DiaSemana" class="DiaSemana"></p>
+                <p id="Dia" class="Dia"></p>
+                <p> de </p>
+                <p id="Mes" class="Mes"></p>
+                <p> del </p>
+                <P id="Year" class="Year"></P>
+            </div>
+
+            <!--DIV PARA RELOJ-->
+            <div class="reloj">
+                <p id="Horas" class="Horas"></p>
+                <p> : </p>
+                <p id="Minutos" class="Minutos"></p>
+                <p> : </p>
+                <div class="caja-segundos">
+                    <!--CRCEAMOS CAJA PARA AM/PM Y SEGUNDOS-->
+                    <p id="Segundos" class="Segundos"></p>
+                    <p id="AMPM" class="AMPM"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/Reloj.js"></script>
+    <!--ENLAZAR ARCHIVO JAVASCRIPT-->
+</body>
+
+</html>
+
+<!-- PRUEBA DE COMENTARIO GITHUB -->

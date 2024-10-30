@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body
+{
+    /*background: url(../image/PolyClockScape.jpg) #000;*/
+    background-size: cover;
+    color: #fff;
+    font-size: 12px;
+}
+
+.wrap
+{
+    width: 60%;
+    max-width: 1000px;
+    position: relative;
+    margin: auto; /*CENTRAR RELOJ*/
+}
+
+.widget
+{
+    width: 80%; /*PARA NO ABARCAR TODO EL ANCHO DE LA PAGINA*/
+    margin: 2em;
+    margin: auto;
+    /*margin: 32px;*/
+}
+
+/*PARRAFO DEL WIDGET*/
+.widget p
+{
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha
+{
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    /*margin-bottom: 5px;*/
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj
+{
+    font-family: Oswald, Arial;
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*PARA LA CAJA SEGUNDOS DENTRO DE RELOJ: CAMBIAR DE LUGAR*/
+.reloj .caja-segundos
+{
+    display: inline-block;
+}
+
+.reloj .Segundos,
+.reloj .ampm
+{
+    display: inline-block;
+}
