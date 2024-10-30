@@ -16,15 +16,14 @@ body
 
 .wrap
 {
-    width: 60%;
-    max-width: 1000px;
+    width: auto;
     position: relative;
     margin: auto; /*CENTRAR RELOJ*/
 }
 
 .widget
 {
-    width: 80%; /*PARA NO ABARCAR TODO EL ANCHO DE LA PAGINA*/
+    width: 100%; /*PARA NO ABARCAR TODO EL ANCHO DE LA PAGINA*/
     margin: 2em;
     margin: auto;
     /*margin: 32px;*/
