@@ -22,7 +22,7 @@
         
         
         /* OBTENER FECHA  DIASEMANA/DIA/MES/AÑO*/    
-        var semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Vienres','Sabado'];
+        var semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
         pDiaSemana.textContent = semana[diaSemana];
         
         pDia.textContent = dia;
