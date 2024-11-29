@@ -10,7 +10,7 @@ body
 {
     /*background: url(../image/PolyClockScape.jpg) #000;*/
     background-size: cover;
-    color: #032d75;
+    color: #f0ce16;
     font-size: 12px;
 }
 
@@ -43,7 +43,7 @@ body
     font-size: 1.5em;
     margin-bottom: 0.3125rem;
     /*margin-bottom: 5px;*/
-    background: #f0ce16;
+    background: #032d75;
     padding: 20px;
     width: 100%;
 }
